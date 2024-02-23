@@ -7,6 +7,10 @@
     top: 0;
 }
 
+.features_area .feature_item{
+    background-color: #E0E1CE;
+}
+
 header .main-menu .container{
     width: 100%;
     position: relative;
@@ -46,7 +50,7 @@ header .main-menu .menu-nav > li a{
 }
 
 header .main-menu .menu-nav > li a:hover{
-    color: #00909f;
+    color: #EFC5C4;
     text-decoration: underline;
 }
 
@@ -292,7 +296,7 @@ header .main-menu .menu-nav > li a:hover{
 
 .info-project{
     color: black;
-    background: linear-gradient(#e0e0e0, #ebebeb);
+    background: linear-gradient(#E0E1CE, #E0E1CE);
     border-radius: 10px 10px 10px 10px;
     text-align: center;
 }
