@@ -8,7 +8,7 @@
 }
 
 .features_area .feature_item{
-    background-color: #E0E1CE;
+    background-color: #F4EEED;
 }
 
 header .main-menu .container{
@@ -218,7 +218,7 @@ header .main-menu .menu-nav > li a:hover{
 }
 
 .features_area .feature_item{
-    height: 25em;
+    height: 26.5em;
     margin: 2em 0;
 }
 
@@ -368,8 +368,19 @@ header .main-menu .menu-nav > li a:hover{
 .testi_text{
     position: relative;
     margin: 0 auto;
-    width: 24em;
+    width: 26em;
     text-align: justify;
+}
+
+.testimonial_area .owl-carousel .owl-item img {
+    width: 140px !important;
+    height: auto !important;
+}
+
+.owl-carousel .owl-item img {
+    width: 140px  !important;
+    height: auto !important;
+
 }
 
  .owl-carousel .owl-item  {
