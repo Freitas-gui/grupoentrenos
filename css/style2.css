@@ -9,6 +9,8 @@
 
 .features_area .feature_item{
     background-color: #F4EEED;
+    height: 27.5em;
+    margin: 2em 0;
 }
 
 header .main-menu .container{
@@ -81,7 +83,7 @@ header .main-menu .menu-nav > li a:hover{
     }
 
     header .main-menu .logo_h img{
-        width: 150px;
+        width: 100px;
         display:inline-block;
         position: absolute;
         right: auto;
@@ -104,8 +106,14 @@ header .main-menu .menu-nav > li a:hover{
     }
     header .main-menu .menu-nav{
         display: block;
-        height: 30px;
+        height: 45px;
         margin-right: 20px;
+    }
+}
+
+@media (max-width: 665px){
+    header .main-menu .menu-navbar{
+        display: none;
     }
 }
 
@@ -117,23 +125,24 @@ header .main-menu .menu-nav > li a:hover{
         top: 30px;
         left: 50%;
         transform: translateX(-50%);
+        width: 100px;
     }
     header .main-menu .menu-navbar{
         right: 0;
         width: 254px;
+        height: 10px;
         left: 50%;
         transform: translateX(-50%);
         top: -25px;
     }
     header .main-menu .menu-nav{
-        display: block;
-        height: 90px;
-        margin: 0 auto;
+        height: 45px;
         text-align: center;
+        font-size: 15px;
+        margin: 5px 0;
     }
      header .main-menu .menu-nav > ul{
          font-size: 15px;
-
      }
 }
 /*End header*/
@@ -217,11 +226,6 @@ header .main-menu .menu-nav > li a:hover{
     padding-top: 100px;
 }
 
-.features_area .feature_item{
-    height: 27.5em;
-    margin: 2em 0;
-}
-
 .carousel-control-prev{
     width: 50px;
     height: 50px;
@@ -243,6 +247,17 @@ header .main-menu .menu-nav > li a:hover{
     margin-left: 100px;
 }
 
+@media (max-width: 1220px){
+    .features_area .feature_item{
+        height: 33em;
+    }
+}
+
+@media (max-width: 992px){
+    .features_area .feature_item{
+        height: 24em;
+    }
+}
 
 @media (max-width: 1000px) {
     .carousel-item {

@@ -2428,25 +2428,34 @@ h6 {
 /* Start About Us Area css
 ============================================================================================ */
 .about_area {
-  position: relative; }
-  .about_area .main_title {
-    margin-bottom: 0px; }
-    .about_area .main_title p {
-      margin-bottom: 20px; }
-  .about_area .primary_btn {
-    margin-top: 20px; }
+  position: relative; 
+}
+.about_area .main_title {
+  margin-bottom: 0px; 
+}
+.about_area .main_title p {
+  margin-bottom: 20px; 
+}
+.about_area .primary_btn {
+  margin-top: 20px; 
+}
+.about_area .about_img {
+  position: relative;
+  right: 250px; 
+  margin-left: 500px; 
+}
+@media (max-width: 991px) {
   .about_area .about_img {
-    position: relative;
-    right: 250px; }
-    @media (max-width: 1480px) {
-      .about_area .about_img {
-        right: 0; }
-        .about_area .about_img img {
-          max-width: 100%;
-          height: auto; } }
-    @media (max-width: 991px) {
-      .about_area .about_img {
-        display: none; } }
+    margin-left: 250px; 
+    margin-top: 50px;
+  } 
+} 
+@media (max-width: 445) {
+  .about_area .about_img {
+    margin-left: 222.5px; 
+    margin-top: 50px;
+  } 
+}
 
 /* End About Us Area css
 ============================================================================================ */
