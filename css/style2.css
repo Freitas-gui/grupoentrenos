@@ -354,14 +354,14 @@ header .main-menu .menu-nav > li a:hover{
 }
 
 .posts{
-    height: 420px;
+    height: 600px;
     margin: 0;
 }
 
 .post{
-    width: 35em;
+    width: 50em;
     margin: 0;
-    max-width: 80%;
+    max-width: 95%;
 }
 
 .post:hover{
@@ -413,7 +413,7 @@ header .main-menu .menu-nav > li a:hover{
 
 @media (max-width: 1000px) {
     .posts{
-        max-width: 75%;
+        max-width: 95%;
         margin: 0 auto;
     }
 
