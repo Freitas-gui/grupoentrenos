@@ -1,4 +1,29 @@
 /*Start header*/
+.btn-primary:hover, .btn-primary:active{
+    background-color: #efc5c4;
+    border-color: #efc5c4;
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #C99190;
+    border-color: #C99190;
+}
+
+.btn-secundary:hover, .btn-secundary:active{
+    background-color: #F4EEED;
+    border-color: #F4EEED;
+}
+
+.btn-secundary{
+    background-color: #E0E1CE;
+    border-color: #E0E1CE;
+}
+
+.modal-header{
+    background-color: #deb4b3
+}
+
 .main-menu{
     position: fixed;
     width: 100%;

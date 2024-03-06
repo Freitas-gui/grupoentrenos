@@ -63,7 +63,7 @@
 						<h1 class="text-uppercase" style="font-size: 3em;">Bem vinda ao programa "Entre Nós"</h1>
 						<div class="d-flex align-items-center">	
 							<!--<a class="primary_btn" href="#"><span>Me contrate</span></a>-->
-							<a class="primary_btn tr-bg" href="https://mpago.la/1UaNJDk" target="_blank">
+							<a class="primary_btn tr-bg btn-modal">
 								<span>Participar</span>
 							</a>
 						</div>
@@ -95,15 +95,14 @@
 							Esquemas desadaptativos, reconhecê-los e aprender que é possível
 							combatê-los com ajuda da psicoterapia em grupo e individual.
 						</p>
-						<a class="primary_btn" target="_blank" href="https://mpago.la/1UaNJDk">
-							<span>Participar</span>
+						<a class="primary_btn" target="_blank"/span>
 						</a>
 					</div>
 				</div>
 				<div class="col-lg-5">
 					<div class="about_img">
 						<iframe width="233.5" height="405"
-							src="https://www.youtube.com/embed/H5QLMfg8MTQ?showinfo=0" 
+							src="https://www.youtube.com/embed/ROBF-FvuSys?showinfo=0" 
 							frameborder="0" 
 							allowfullscreen
 							style="border: 5px solid #bbb;">
@@ -123,9 +122,6 @@
 				<div class="col-lg-8 text-center">
 					<div class="main_title">
 						<h2>PORQUE PARTICIPAR</h2>
-						<p>
-							
-						</p>
 					</div>
 				</div>
 			</div>
@@ -159,7 +155,7 @@
 										<div class="feature_item">
 											<img src="img/experiencia.png" alt="" width="80px">
 											<h4>DESENVOLVIMENTO PESSOAL E PROFISSIONAL</h4>
-											<p>O autoconhecimento é o maior propulsor para nutrir a autoestima e autoconfiança e despertar a segurança para vivenciar seu pleno potencia.</p>
+											<p>O autoconhecimento é o maior propulsor para nutrir a autoestima e autoconfiança e despertar a segurança para vivenciar seu pleno potencial.</p>
 										</div>
 									</div>
 
@@ -167,7 +163,7 @@
 										<div class="feature_item">
 											<img src="img/crescimento.png	" alt="" width="80px">
 											<h4>Impacto Positivo na Vida das Participantes</h4>
-											<p>Nosso objetivo é contribuir para que cada participante perceba o próprio potencial e encontre estratégias individuais que superem as dificuldades que surgirem.</p>
+											<p>Quando uma experiência reparadora e afetiva nos impacta significativamente, elas refletem positivamente em diversas áreas da nossa vida.</p>
 										</div>
 									</div>
 
@@ -454,7 +450,7 @@
 							Aguardamos ansiosas pela sua participação juntamente com outras mulheres fortes.
 						</p>
 						<div class="subcribe-form" id="mc_embed_signup">
-							<a class="primary_btn tr-bg	inline-block" href="https://mpago.la/1UaNJDk" target="_blank">
+							<a class="primary_btn tr-bg btn-modal inline-block">
 								<span>Participar</span>
 							</a>
 						</div>
@@ -500,6 +496,43 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>
 		</div>
 	</footer>
+
+	<div class="modal" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Informações Para Participar</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p><strong>Onde e quando vai acontecer:</strong></p>
+					<p> &nbsp; 12 sessões online pela plataforma Zoom</p>
+					<p> &nbsp; 1 vez por semana</p>
+					<p><strong>Início:</strong></p>
+					<p> &nbsp; 10 de abril de 2024, das 19h às 20:30h</p>
+					<p><strong>Valor:</strong></p>
+					<p>
+						&nbsp; Até 6x de R$ 382,92 no cartão
+						<br>
+						&nbsp; ou
+						<br>
+						&nbsp; R$2.297,50 à vista
+						<br>
+						<em> &nbsp; *Os valores podem estar sujeitos a alterações.</em></p>
+					</p> 
+				</div>
+				<div class="modal-footer">
+					<a href="https://mpago.li/2M7hccw" target="_blank" class="btn btn-primary">
+						Participar
+					</a>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 	<!--================End Footer Area =================-->
 
 	<!-- Optional JavaScript -->
@@ -520,6 +553,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/theme.js"></script>
 	<script src="js/index.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".btn-modal").click(function(){
+				$("#myModal").modal('show');
+			});
+		});
+	</script>
 </body>
 
 </html>
